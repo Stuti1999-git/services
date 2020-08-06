@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <form (ngSubmit)='show()'>
+    <input placeholder="Enter User ID" type="text" [(ngModel)]='userid' name="id" />
+    <button type="submit">Search</button>
+    </form>
+  <table>
+    <tr>
+      <td>UserID</td>
+      <td>ID</td>
+      <td>Title</td>
+      <td>Body</td>
+    </tr>
+    <tr *ngFor="let c of commentsArr">
+      <td>{{c.userId}}</td>
+      <td>{{c.id}}</td>
+      <td>{{c.title}}</td>
+      <td>{{c.body}}</td>
+    </tr>
+  </table> -->
+
+<p>userid:{{returnPost.userId}}</p>
+<p>id:{{returnPost.id}}</p>
+<p>title:{{returnPost.title}}</p>
+<p>body:{{returnPost.body}}</p>
+
+<!-- <p>userid:{{returnPost?.userId}}</p>
+<p>id:{{returnPost?.id}}</p>
+<p>title:{{returnPost?.title}}</p>
+<p>body:{{returnPost?.body}}</p>     using ? for nullable -->
+
+
+<!-- </body>
+</html>
+<body>
+  <form (ngSubmit)='checkId()'>
+    <input placeholder="Enter User Id" type="text" name='id' [(ngModel)]='id' />
+    <button type="submit" (click)=checkId()>Search</button>
+  </form>
+  <table *ngIf='comments?.length'>
+
+    <tr *ngFor="let c of comments">
+      <td>{{c.userId}}</td>
+      <td>{{c.id}}</td>
+      <td>{{c.title}}</td>
+      <td>{{c.body}}</td>
+    </tr>
+  </table>
+  <p *ngIf='!comments?.length'>No Data Found</p> 
+
+
+  <p>userid: {{returnpost.userid}}</p>
+  <p>id: {{returnpost.id}}</p>
+  <p>title: {{returnpost.title}}</p>
+  <p>body: {{returnpost.body}}</p>
+
+
+</body> -->
